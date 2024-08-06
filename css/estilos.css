@@ -572,7 +572,7 @@ body{
 
     .testimony__container{
         grid-template-columns: 30px 1fr 30px;
-        padding: 0;
+        padding: 20px;
     }
 
     .testimony__body{
@@ -625,4 +625,65 @@ body{
         margin-bottom: 40px;
     }
 
+}
+
+@media (max-width:600px) {
+    
+    .hero__title{
+        font-size: 2rem;
+    }
+
+    .hero__paragraph{
+        font-size: 1rem;
+    }
+
+    .subtitle{
+        font-size: 1.8rem;
+    }
+
+    .price__element{
+        width: 90%;
+    }
+
+    .price__element--best{
+        width: 90%;
+        padding: 40px;
+    }
+
+    .price__price{
+        font-size: 2rem;
+    }
+
+    .testimony__container{
+        grid-template-columns: 28px 1fr 28px;
+        gap: .9em;
+    }
+
+    .testimony__arrow{
+        width: 100%;
+    }
+
+    .testimony__course{
+        margin-top: 15px;
+    }
+
+    .questions__title{
+        text-align: left;
+    }
+
+    .footer__inputs{
+        flex-wrap: wrap;
+    }
+
+    .footer__input{
+        flex-basis: 100%;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+
+    .footer__submit{
+        margin-right: auto;
+        width: 100%;
+    }
 }
