@@ -474,6 +474,8 @@ body{
     font-size: 1rem;
     color: white;
     border-radius: 6px;
+    cursor: pointer;
+
 }
 
 .footer__copy{
